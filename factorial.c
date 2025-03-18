@@ -9,9 +9,11 @@ int main()
 	{
 	fact=1;
 		while(num>0)
-		{	
+		{
+			
 			fact=fact*num;
-			num--;	
+			num--;
+			
 		}
 	printf("FACTORIAL OF %d is %d",element,fact);
 	}
@@ -19,5 +21,7 @@ int main()
 	{
 		printf("NUMBER SHOULD BE A POSTIVE NUMBER");
 	}
-	return 0;	
+	
+	return 0;
+	
 }
