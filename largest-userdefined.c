@@ -17,8 +17,8 @@ int main(){
     scanf ("%d",&size);
     int arr[size];
     for (i=0;i<size;i++){
-        printf("Enter the element");
-        scanf("%d",arr[i]);
+        printf("Enter the %d element",i+1);
+        scanf("%d",&arr[i]);
     }
     largest(arr,size);
     return 0;
