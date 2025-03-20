@@ -1,5 +1,5 @@
 #include<stdio.h>
-void largest(int arr[],int size){
+void smallest(int arr[],int size){
     int smallest=arr[0],sec_smallest;
     
     for (int j=1;j<size;j++){
@@ -19,8 +19,8 @@ int main(){
     scanf ("%d",&size);
     int arr[size];
     for (i=0;i<size;i++){
-        printf("Enter the element");
-        scanf("%d",arr[i]);
+        printf("Enter the %d element",i+1);
+        scanf("%d",&arr[i]);
     }
     smallest(arr,size);
     return 0;
