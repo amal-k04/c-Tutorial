@@ -20,6 +20,6 @@ int main(){
 	scanf("%d",&size);
 	int arr[size];
 	rea(arr,size);
-	display(arr,size);
+	display(newarr,size);
 	return 0;
 }
